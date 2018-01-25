@@ -11,6 +11,7 @@ body{
     text-align: center;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 header{
@@ -64,4 +65,33 @@ h2, h3, h4{
     padding: 10px;
     margin: 0px;
     display: block;
+}
+
+#featured_tea {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    
+    }
+
+#featured_tea img {
+    width:300px;
+    height: 200px;
+    margin: 10px;
+    
+}
+
+.pictures {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    
+}
+
+.berryblitz, .spicedrum, .donut, .mytrleave, .bedfordbizarre {
+    display: block;
+    
+    
 }

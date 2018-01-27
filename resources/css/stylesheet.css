@@ -134,3 +134,12 @@ h2, h3, h4{
     padding: 10px;
     margin: 5px 20px;
 }
+
+#contact{
+    height:200px;
+}
+
+footer{
+    text-align: left;
+    margin-left:20px;
+}
